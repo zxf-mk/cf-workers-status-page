@@ -37,3 +37,10 @@ monitors:
     url: 'http://zhome.asia/'
     method: GET
     expectStatus: 200
+
+  - id: uptime
+    name: uptim
+    url: 'https://uptime.cfss.us.kg'
+    method: GET
+    expectStatus: 200
+
