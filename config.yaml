@@ -44,3 +44,10 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: pieces-api
+    name: pieces-api
+    url: 'https://mk99z-pieces-os.hf.space'
+    method: GET
+    expectStatus: 200
+    linkable: true
+
