@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://uptime.cfss.us.kg' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -49,5 +49,11 @@ monitors:
     url: 'https://mk99z-pieces-os.hf.space'
     method: GET
     expectStatus: 200
-    linkable: true
+
+  - id: cfss
+    name: 彩虹DNS管理
+    url: 'https://cfss.us.kg'
+    method: GET
+    expectStatus: 200
+  
 
