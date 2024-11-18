@@ -50,10 +50,5 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: cfss
-    name: 彩虹DNS管理
-    url: 'https://cfss.us.kg'
-    method: GET
-    expectStatus: 200
   
 
