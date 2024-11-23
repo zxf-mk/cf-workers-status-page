@@ -38,9 +38,9 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: uptime
-    name: uptim
-    url: 'https://uptime.cfss.us.kg'
+  - id: openai
+    name: openaiweb
+    url: 'https://mk99z-web.hf.space'
     method: GET
     expectStatus: 200
 
