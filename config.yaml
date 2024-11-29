@@ -64,7 +64,7 @@ monitors:
  
   - id: Duck2-api
     name: duck2-api
-    url: 'https://https://mk99z-duck2api.hf.space'
+    url: 'https://mk99z-duck2api.hf.space'
     method: GET
     expectStatus: 200
 
