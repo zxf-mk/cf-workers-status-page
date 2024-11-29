@@ -56,6 +56,19 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: DDg-api
+    name: DDg-api
+    url: 'https://mk99z-ddg-chat.hf.space'
+    method: GET
+    expectStatus: 200
+ 
+  - id: Duck2-api
+    name: duck2-api
+    url: 'https://https://mk99z-duck2api.hf.space'
+    method: GET
+    expectStatus: 200
+    
+
 
   
 
