@@ -50,6 +50,12 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: lite
+    name: litellmGemini
+    url: 'https://mk99z-litellm.hf.space/'
+    method: GET
+    expectStatus: 200
+
 
   
 
