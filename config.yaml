@@ -67,3 +67,9 @@ monitors:
     url: 'https://mk99z-duck2api.hf.space'
     method: GET
     expectStatus: 200
+
+  - id: ip-api
+    name: ping api
+    url: 'https://mk99z-api.hf.space'
+    method: GET
+    expectStatus: 200
