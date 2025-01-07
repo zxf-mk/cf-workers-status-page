@@ -73,4 +73,9 @@ monitors:
     url: 'https://mk99z-api.hf.space'
     method: GET
     expectStatus: 200
-  
+
+  - id: gamein
+    name: gemini api
+    url: 'https://mk99z-gemini2.hf.space/'
+    method: GET
+    expectStatus: 200
